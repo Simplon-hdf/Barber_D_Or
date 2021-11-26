@@ -1,5 +1,48 @@
-/*@import "./utils/variables";
-@import "./layouts/form";*/
+body {
+    background-image: url("../img/wooden-background.jpg");
+    background-attachment: fixed;
+}
 
 
-/*# sourceMappingURL=main.css.map */
+
+
+                    /* Top zone */
+.banner img{
+    width: 100%;
+    object-fit: fill;
+    border-bottom: solid 4px #D4AF37;
+}
+
+                    /*  Text zone   */
+
+.aboutUs{ /*    Main container      */
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs h1, p {
+    color: #fefee2;
+    text-align: center;
+}
+.aboutUs p {
+    width: 40%;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 1.5%;
+    background-color: rgba(184, 115, 51, 0.77) ;
+    border: 4px solid #D4AF37;
+    border-radius: 1em;
+    overflow-wrap: break-word;
+    text-align: start;
+    margin-bottom: 15%;
+}
+
+.aboutUs h1 {
+    font-size: 6em;
+    text-shadow: black 1.5px 1.5px 1.5px;
+    font-family: "Rye";
+}
+.goldenWord { /*    Golden word in h1 Header    */
+    color: #D4AF37;
+}
+
