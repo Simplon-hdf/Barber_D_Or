@@ -1,5 +1,76 @@
-/*@import "./utils/variables";
-@import "./layouts/form";*/
+/* HEADER */
 
 
-/*# sourceMappingURL=main.css.map */
+header{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    min-height: 20vh;
+
+
+}
+header figure{
+    justify-self: center;
+}
+header .Logo{
+    
+    max-width: 20vh;
+}
+header ul {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+}
+.left{
+    justify-self: end;
+}
+.rigth{
+    justify-self: start;
+}
+header li,a {
+color: white;
+    padding: 5%;
+    font-size: 150%;
+    text-decoration: none;
+   
+}
+
+header li,a:hover{
+
+    cursor: pointer;
+    color: #ffd700;
+    text-decoration: #ffd700;
+   
+}
+
+
+/* FOOTER */
+
+
+footer{
+    max-width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    min-height: 20vh;
+}
+
+footer ul{
+    padding: 5% 10% 0 10% ;
+    justify-content: space-evenly;
+    color: white;
+    list-style-type: none;
+}
+footer li{
+    padding: 0 0 5vh 0 ;
+    font-size: 150%;   
+}
+footer img{
+    max-width: 3vh;
+}
