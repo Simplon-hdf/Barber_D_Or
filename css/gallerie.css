@@ -1,0 +1,24 @@
+main figure{
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 10%;
+    padding: 10% 0 20% 0;
+
+}
+main img{
+    border: 4px solid #d4af37;
+    max-width: 75%;
+
+    
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 6em;
+    text-shadow: black 1.5px 1.5px 1.5px;
+    font-family: "Rye";
+    color: #d4af37;
+
+}
