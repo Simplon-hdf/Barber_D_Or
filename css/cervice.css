@@ -1,5 +1,60 @@
-/*@import "./utils/variables";
-@import "./layouts/form";*/
+.prices { /*            Main container              */
+    display: flex;
+    flex-direction: column;
+}
+
+.prices h1, ul{
+    margin: auto;
+    padding-top: 2.5%;
+}
+.prices h1 {
+    font-size: 6em;
+    text-shadow: black 1.5px 1.5px 1.5px;
+    font-family: "Rye";
+    color: #D4AF37;
+}
 
 
-/*# sourceMappingURL=main.css.map */
+/*          Prices List Design          */
+
+.prices ul{
+    margin-bottom: 3%;
+}
+
+.prices p {
+    color: #fefee2;
+    font-size: 1.4rem;
+}
+
+.prices li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    list-style: none;
+    border-bottom: 1px dashed #D4AF37;
+}
+
+.prices .puce_list { /*             Svg ico in List             */
+    width: 30px;
+    height: 30px;
+    padding-right: 3%;
+}
+
+
+.caption {
+    width: 30vh;
+}
+
+.prices .divider{
+    margin-left: 10%;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+.price{ /*          Price paragraph             */
+    padding-left: 20vh;
+}
+
+/*          Prices List Design End         */
