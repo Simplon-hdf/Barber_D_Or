@@ -1,41 +1,39 @@
 /* HEADER */
 
-
-header{
+.header_2{
+    display: none;
+}
+header {
+    background-color: black;
+    min-height: 10vw;
     max-width: 100%;
+}
+.header_1{ 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    background-color: black;
-    min-height: 20vh;
-
-
 }
-header figure{
+.header_1 figure{
     justify-self: center;
 }
-header .Logo{
+.header_1 .Logo{
    color: #ffd700;
-    max-width: 20vh;
+    max-width: 15vw;
 }
-header ul {
+.header_1 ul {
     max-width: 80%;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     
     list-style-type: none;
 }
-.left{
-    justify-self: end;
-}
-.rigth{
-    justify-self: start;
-}
+
 header li,a {
 color: white;
-    padding: 5%;
-    font-size: 175%;
+    padding: 1VW;
+    font-size: 2vw;
     text-decoration: none;
    
 }
@@ -73,6 +71,65 @@ footer li{
 footer img{
     max-width: 3vh;
 }
-@media (max-width:375px){
-    
+@media (max-width:600px){
+    header{
+        max-height: 10% ;
+        background-color: rgba(0, 0, 0, 1);
+
+    }
+    .header_1{
+        display: none;
+    }
+    .header_2{
+        display: flex;
+        padding: 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Logo{
+        margin-left: 4vh;
+        max-width: 10vh;
+    }
+    .butmenu{
+        margin-right: 5vh;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        cursor: pointer;
+        font-size: 4rem;
+        rotate: 90deg;
+        border: none;
+    }
+    .menu{
+        position: relative;
+        display: inline-block;
+    }
+    .listmenu{
+        display: none;
+        list-style-type: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        min-width: 20vh;
+        left: -10vh;
+        z-index: 1;
+    }
+    .listmenu a{
+        padding: 5%;
+        color: white;
+        background-color:black ;
+        font-size: 100%;
+        text-decoration: none;
+        display: block;
+    }
+    .listmenu a:hover{
+        background-color:#ffd700 ;
+    }
+
+        .menu:active .listmenu{
+        display: block;
+    }
+
+
+    .menu:hover .butmenu{
+        
+    }
 }
