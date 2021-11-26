@@ -1,14 +1,16 @@
-h1, p {
-    color: white;
-}
-p {
+section p {
+    color: #fefee2;
     text-align: justify;
-    width: 60%;
 }
-
+h1 {
+    grid-area: title;
+    text-align: center;
+    font-size: 6em;
+    text-shadow: black 1.5px 1.5px 1.5px;
+    font-family: "Rye";
+    color: #D4AF37;
+}
 section img{
-    width: 200px;
-    height: 200px;
     border: 3px solid #D4AF37;
 }
 article{
@@ -17,7 +19,6 @@ article{
 }
 .container {
     display: grid;
-    gap: 10px;
 }
 
 .article1 {
@@ -29,12 +30,6 @@ article{
 .article3 {
     grid-area: article3;  
 }
-h1 {
-    grid-area: title;
-    text-align: center;
-}
-
-
 
 
 @media screen and (max-width: 480px){
@@ -104,17 +99,25 @@ h1 {
     article{
         width: 100%;
         flex-direction: row;
-        text-align: justify
+        text-align: justify;
+        background-color: rgba(184, 115, 51, 0.5);
+        border-top: 2px solid #D4AF37;
+        border-bottom: 2px solid #D4AF37;
+        margin-bottom: 2%;
     }
-    
+    section img{
+        width: 464 px;
+        height: 464px;
+        margin-top: 5px;
+    }
+    section p {
+        text-align: justify;
+        width: 60%;
+        height: 440px;
+        font-size: 1.8rem;
+        margin: auto;
+    }
 }
-
-
-
-
-
-
-/*___________________________________________________________________________________________*/
 
 
 
