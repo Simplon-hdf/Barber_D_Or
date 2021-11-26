@@ -1,5 +1,11 @@
-/*@import "./utils/variables";
-@import "./layouts/form";*/
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html{
+    width: 100%;
+    font-family: 'NTR', sans-serif;
+}
 
 
-/*# sourceMappingURL=main.css.map */
