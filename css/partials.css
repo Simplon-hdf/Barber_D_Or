@@ -16,7 +16,7 @@ header figure{
     justify-self: center;
 }
 header .Logo{
-    
+   color: #ffd700;
     max-width: 20vh;
 }
 header ul {
@@ -35,7 +35,7 @@ header ul {
 header li,a {
 color: white;
     padding: 5%;
-    font-size: 150%;
+    font-size: 175%;
     text-decoration: none;
    
 }
@@ -45,7 +45,6 @@ header li,a:hover{
     cursor: pointer;
     color: #ffd700;
     text-decoration: #ffd700;
-   
 }
 
 
@@ -73,4 +72,7 @@ footer li{
 }
 footer img{
     max-width: 3vh;
+}
+@media (max-width:375px){
+    
 }
