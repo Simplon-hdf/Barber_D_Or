@@ -1,3 +1,4 @@
+
 main figure{
     display: grid;
     grid-template-columns: repeat(4, 5fr);
@@ -16,9 +17,57 @@ main img{
 main h1{
     display: flex;
     justify-content: center;
-    font-size: 6em;
+    font-size: 20vh;
     text-shadow: black 1.5px 1.5px 1.5px;
     font-family: "Rye";
     color: #d4af37;
 
+}
+
+@media (max-width:400px){
+    main figure{
+        display: grid;
+        grid-template-columns: repeat(1, 12fr);
+        justify-items: center;
+        align-items: center;
+        row-gap: 10vh;
+        padding: 10% 0 10% 0;   
+    }
+    main h1{
+        font-size: 5vh;
+    }
+}
+@media (min-width:400px){
+    main figure{
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        justify-items: center;
+        align-items: center;
+        row-gap: 10vh;
+        padding: 10% 0 10% 0; 
+    }
+    main h1{
+        font-size: 8vh;
+    }
+}
+@media (min-width:600px){
+    main figure{
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+        justify-items: center;
+        align-items: center;
+        row-gap: 10vh;
+        padding: 10% 0 10% 0;
+    }
+    main h1{
+        font-size: 10vh;
+    }
+}
+@media (min-width:1000px){
+    main figure{
+        grid-template-columns: repeat(4, 5fr);   
+    }
+    main h1{
+        font-size: 15vh;
+    }
 }
