@@ -76,3 +76,26 @@ footer img{
 @media (max-width:375px){
     
 }
+
+/*          Scroll bar design           */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+    background-color: grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D4AF37;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-corner{
+    display: none;
+}
+/*          Scroll bar design  End        */
