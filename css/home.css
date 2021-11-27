@@ -42,11 +42,10 @@
 }
 
 @media screen and (max-width: 480px){
-    @media screen and (max-width: 481px){
         .aboutUs h1 {
             font-size: 2em;
         }
-    }
+    
 }
 
 @media screen and (max-width: 481px){
@@ -59,12 +58,6 @@
 @media screen and (max-width: 769px){
     .aboutUs h1 {
         font-size: 4em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .aboutUs h1 {
-        font-size: 6em;
     }
 }
 

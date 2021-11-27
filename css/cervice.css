@@ -8,7 +8,6 @@
     padding-top: 2.5%;
 }
 .prices h1 {
-    font-size: 6em;
     text-shadow: black 1.5px 1.5px 1.5px;
     font-family: "Rye";
     color: #D4AF37;
@@ -23,7 +22,6 @@
 
 .prices p {
     color: #fefee2;
-    font-size: 1.4rem;
 }
 
 .prices li{
@@ -42,19 +40,73 @@
     padding-right: 3%;
 }
 
-
-.caption {
-    width: 30vh;
-}
-
 .prices .divider{
     margin-left: 10%;
     font-weight: bold;
     color: #D4AF37;
 }
 
-.price{ /*          Price paragraph             */
-    padding-left: 20vh;
-}
 
 /*          Prices List Design End         */
+@media screen and (min-width: 480px){
+    .prices h1 {
+        font-size: 48px;
+    }
+    .prices p {
+        font-size: 1rem;
+    }
+    .price{ /*          Price paragraph             */
+        padding-left: 5vh;
+    }
+    .caption {
+        width: 15vh;
+    }
+
+}
+
+@media screen and (min-width: 481px){
+    .prices h1 {
+        font-size: 5em;
+    }
+    .prices p {
+        font-size: 1.4rem;
+    }
+    .price{ /*          Price paragraph             */
+        padding-left: 10vh;
+    }
+    .caption {
+        width: 30vh;
+    }
+}
+
+
+@media screen and (min-width: 769px){
+    .prices h1 {
+        font-size: 6em;
+    }
+    .prices p {
+        font-size: 1.4rem;
+    }
+    .price{ /*          Price paragraph             */
+        padding-left: 20vh;
+    }
+    .caption {
+        width: 30vh;
+    }
+}
+
+
+@media screen and (min-width: 1280px){
+    .prices h1 {
+        font-size: 6em;
+    }
+    .prices p {
+        font-size: 1.4rem;
+    }
+    .price{ /*          Price paragraph             */
+        padding-left: 20vh;
+    }
+    .caption {
+        width: 30vh;
+    }
+}
