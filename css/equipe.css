@@ -22,7 +22,7 @@ h1 {
     text-shadow: black 1.5px 1.5px 1.5px;
     font-family: "Rye";
 }
-article {
+.card {
     width: 400px;
     justify-self: center;
     border-radius: 15px;
@@ -31,12 +31,12 @@ article {
     display: grid;
     grid-template-rows: 1fr 0.15fr 0.5fr;
 }
-article>figure{
+.card>figure{
     width: 80%;
     margin: auto;
     
 }
-article>figure>img {
+.card>figure>img {
     width: 100%;
     border-radius: 50%;
 }
@@ -50,7 +50,7 @@ article>figure>img {
     grid-area: card3;
 
 }
-article>p {
+.card>p {
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -81,7 +81,7 @@ article>p {
         font-size: 2.5em;
     }
 
-    article{
+    .card{
         width: 200px;
     }
     
@@ -103,7 +103,7 @@ article>p {
         font-size: 4em;
     }
 
-    article{
+    .card{
         width: 250px;
     }
 
@@ -118,7 +118,7 @@ article>p {
         "card3 card3"
         ;
     }
-    article{
+    .card{
         width: 300px;
     }
 
@@ -138,7 +138,7 @@ article>p {
         font-size: 6em;
     }
 
-    article {
+    .card {
         width: 400px;
     }
     
