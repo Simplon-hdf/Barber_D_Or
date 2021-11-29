@@ -20,7 +20,7 @@ h1 {
     font-family: "Rye";
 }
 
-article {
+.calendar {
     grid-area: calendar;
 
     justify-self: center;
@@ -28,7 +28,7 @@ article {
     background-color: rgba(184, 115, 51, 0.77);
     border: 4px solid #d4af37;
 }
-article>ul, article>ul>li, .head {
+.calendar>ul, .calendar>ul>li, .head {
     list-style-type: none;
 }
 .head {
@@ -111,7 +111,7 @@ article>ul, article>ul>li, .head {
     h1 {
         font-size: 2.5em;
     }
-    article{
+    .calendar{
         width: 250px;
     }
     
@@ -130,7 +130,7 @@ article>ul, article>ul>li, .head {
     h1 {
         font-size: 4em;
     }
-    article{
+    .calendar{
         width: 450px;
     }
 
@@ -145,7 +145,7 @@ article>ul, article>ul>li, .head {
         ". ."
         ;
     }
-    article{
+    .calendar{
         width: 600px;
     }
 
@@ -166,7 +166,7 @@ article>ul, article>ul>li, .head {
         font-size: 6em;
     }
 
-    article {
+    .calendar {
     width: 1200px;
     }
     .month ul li {
